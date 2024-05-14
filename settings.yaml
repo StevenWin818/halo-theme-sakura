@@ -1027,22 +1027,12 @@ spec:
           value: ""
           help: 为空则不展示 ICP 备案号（建议添加）
         - $formkit: text
-          name: footer_ga_case_number
-          label: 公安备案信息
+          name: footer_moe_case_number
+          label: 萌icp备案信息
           value: ""
-          help: 为空则不展示公安备案信息
-        - $formkit: text
-          name: footer_ga_select_number
-          label: 公安联网备案号
-          value: ""
-          help: 应与公安备案信息内的编号一致
+          help: 为空则不展示萌icp备案信息
         - $formkit: text
           name: footer_moe_select_number
-          label: 萌icp备案号
-          value: ""
-          help: 应与萌icp备案信息内的编号一致
-        - $formkit: text
-          name: footer_moe_case_number
           label: 萌icp备案号
           value: ""
           help: 应与萌icp备案信息内的编号一致
