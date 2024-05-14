@@ -1036,6 +1036,16 @@ spec:
           label: 公安联网备案号
           value: ""
           help: 应与公安备案信息内的编号一致
+        - $formkit: text
+          name: footer_moe_select_number
+          label: 萌icp备案号
+          value: ""
+          help: 应与萌icp备案信息内的编号一致
+        - $formkit: text
+          name: footer_moe_case_number
+          label: 萌icp备案号
+          value: ""
+          help: 应与萌icp备案信息内的编号一致
         - $formkit: checkbox
           name: head_notice
           id: head_notice

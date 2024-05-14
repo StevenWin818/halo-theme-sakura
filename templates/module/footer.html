@@ -71,6 +71,24 @@
           <span th:text="${theme.config.others.footer_ga_case_number}"></span>
         </a>
       </th:block>
+      
+      <th:block th:if="${not #strings.isEmpty(theme.config.others.footer_moe_case_number)}">
+        <a
+          th:href="@{|https://icp.gov.moe/?keyword={theme.config.others.footer_moe_case_number}|}"
+          target="_blank"
+          th:text="${theme.config.others.footer_moe_case_number}"
+          aria-label="moe filing address"
+        >
+          <img
+            th:src="${#theme.assets('/images/footer/moeicp.png')}" 
+            alt="badge for moe" 
+            width="16"
+            height="16"
+            style="margin-right: 4px" 
+          />
+          <span th:text="${theme.config.others.footer_ga_case_number}"></span>
+        </a>
+      </th:block>
     </p>
   </div>
 </th:block>
