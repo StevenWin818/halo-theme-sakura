@@ -13,7 +13,7 @@
 
 > 本主题参照 WordPress 主题 [Sakura](https://github.com/mashirozx/Sakura) 制作，在原有的 [Siren](https://github.com/halo-dev/halo-theme-siren) 主题上添加了 Sakura 的内容，并优化了部分内容。
 
-由[Steven](https://stevenwin818)进行二次更改，将icp备案修改为萌备。
+由[Steven](https://github.com/stevenwin818)进行二次更改，将icp备案修改为萌备。
 
 如果各位有什么好的想法，希望可以提交 `ISSUE`，如果有兴趣参与内容贡献，可以提交 `PR`；
 
